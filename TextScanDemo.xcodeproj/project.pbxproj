@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FF1F78DAA6390A47DD6419F /* Pods_TextScanDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91ADA24606F9F948443EC80 /* Pods_TextScanDemo.framework */; };
 		94516D4A1F832817009E8D3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94516D491F832817009E8D3A /* AppDelegate.swift */; };
 		94516D4C1F832817009E8D3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94516D4B1F832817009E8D3A /* ViewController.swift */; };
 		94516D4F1F832817009E8D3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94516D4D1F832817009E8D3A /* Main.storyboard */; };
 		94516D511F832817009E8D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94516D501F832817009E8D3A /* Assets.xcassets */; };
 		94516D541F832817009E8D3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94516D521F832817009E8D3A /* LaunchScreen.storyboard */; };
+		94516D5C1F832977009E8D3A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94516D5B1F832977009E8D3A /* CameraViewController.swift */; };
+		94516D5E1F832A85009E8D3A /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94516D5D1F832A85009E8D3A /* Agent.swift */; };
+		94516D601F832D27009E8D3A /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94516D5F1F832D26009E8D3A /* Preview.swift */; };
+		94516D621F832F2D009E8D3A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94516D611F832F2C009E8D3A /* CoreImage.framework */; };
+		94516D641F832F3B009E8D3A /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 94516D631F832F3B009E8D3A /* libstdc++.6.0.9.tbd */; };
+		94516D671F833171009E8D3A /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 94516D661F833171009E8D3A /* tessdata */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22B50B223A03BF02B381C955 /* Pods-TextScanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextScanDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextScanDemo/Pods-TextScanDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		94516D461F832817009E8D3A /* TextScanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextScanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94516D491F832817009E8D3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94516D4B1F832817009E8D3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,14 @@
 		94516D501F832817009E8D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94516D531F832817009E8D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94516D551F832817009E8D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94516D5B1F832977009E8D3A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		94516D5D1F832A85009E8D3A /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		94516D5F1F832D26009E8D3A /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		94516D611F832F2C009E8D3A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		94516D631F832F3B009E8D3A /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		94516D661F833171009E8D3A /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		D6B7787D59B4BC7DCB6B600C /* Pods-TextScanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextScanDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextScanDemo/Pods-TextScanDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D91ADA24606F9F948443EC80 /* Pods_TextScanDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextScanDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94516D641F832F3B009E8D3A /* libstdc++.6.0.9.tbd in Frameworks */,
+				94516D621F832F2D009E8D3A /* CoreImage.framework in Frameworks */,
+				8FF1F78DAA6390A47DD6419F /* Pods_TextScanDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9217613DC0385D5DEC45F39A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22B50B223A03BF02B381C955 /* Pods-TextScanDemo.debug.xcconfig */,
+				D6B7787D59B4BC7DCB6B600C /* Pods-TextScanDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		94516D3D1F832817009E8D3A = {
 			isa = PBXGroup;
 			children = (
+				94516D661F833171009E8D3A /* tessdata */,
 				94516D481F832817009E8D3A /* TextScanDemo */,
 				94516D471F832817009E8D3A /* Products */,
+				9217613DC0385D5DEC45F39A /* Pods */,
+				C1469A7B645EAA61415AEB8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +85,27 @@
 		94516D481F832817009E8D3A /* TextScanDemo */ = {
 			isa = PBXGroup;
 			children = (
+				94516D5F1F832D26009E8D3A /* Preview.swift */,
+				94516D5D1F832A85009E8D3A /* Agent.swift */,
 				94516D491F832817009E8D3A /* AppDelegate.swift */,
 				94516D4B1F832817009E8D3A /* ViewController.swift */,
 				94516D4D1F832817009E8D3A /* Main.storyboard */,
 				94516D501F832817009E8D3A /* Assets.xcassets */,
 				94516D521F832817009E8D3A /* LaunchScreen.storyboard */,
 				94516D551F832817009E8D3A /* Info.plist */,
+				94516D5B1F832977009E8D3A /* CameraViewController.swift */,
 			);
 			path = TextScanDemo;
+			sourceTree = "<group>";
+		};
+		C1469A7B645EAA61415AEB8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94516D631F832F3B009E8D3A /* libstdc++.6.0.9.tbd */,
+				94516D611F832F2C009E8D3A /* CoreImage.framework */,
+				D91ADA24606F9F948443EC80 /* Pods_TextScanDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94516D581F832817009E8D3A /* Build configuration list for PBXNativeTarget "TextScanDemo" */;
 			buildPhases = (
+				BE7478BA089E26181DCC40D0 /* [CP] Check Pods Manifest.lock */,
 				94516D421F832817009E8D3A /* Sources */,
 				94516D431F832817009E8D3A /* Frameworks */,
 				94516D441F832817009E8D3A /* Resources */,
+				C5911A2F08BA1297CF5D47EB /* [CP] Embed Pods Frameworks */,
+				88444B1E934194B3290483AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94516D541F832817009E8D3A /* LaunchScreen.storyboard in Resources */,
+				94516D671F833171009E8D3A /* tessdata in Resources */,
 				94516D511F832817009E8D3A /* Assets.xcassets in Resources */,
 				94516D4F1F832817009E8D3A /* Main.storyboard in Resources */,
 			);
@@ -131,13 +179,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		88444B1E934194B3290483AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextScanDemo/Pods-TextScanDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE7478BA089E26181DCC40D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextScanDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5911A2F08BA1297CF5D47EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TextScanDemo/Pods-TextScanDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextScanDemo/Pods-TextScanDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94516D421F832817009E8D3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94516D5E1F832A85009E8D3A /* Agent.swift in Sources */,
 				94516D4C1F832817009E8D3A /* ViewController.swift in Sources */,
+				94516D601F832D27009E8D3A /* Preview.swift in Sources */,
 				94516D4A1F832817009E8D3A /* AppDelegate.swift in Sources */,
+				94516D5C1F832977009E8D3A /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +302,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -252,6 +360,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -272,30 +381,34 @@
 		};
 		94516D591F832817009E8D3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B50B223A03BF02B381C955 /* Pods-TextScanDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K38HZR6DV3;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TextScanDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tesseract.demo.TextScanDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		94516D5A1F832817009E8D3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B7787D59B4BC7DCB6B600C /* Pods-TextScanDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K38HZR6DV3;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TextScanDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tesseract.demo.TextScanDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
